@@ -9,6 +9,7 @@ You will be provided with 2 YouTube videos in front of you, and just by looking 
 ## Problems
 - This program is being run on the Invidious api, which is relatively very slow. An alternative would be to just use the YouTube Data API which is much faster, but due to quota limit issues, the game can only be played 5000 times in a day (5000 rounds).
 - The code sometimes randomly breaks due to an undefined youtube ID or connection timeout
+- Not compatible on Phone
 
 ## Updates for future
 - [ ] Create another similar game, but this time to guess which youtuber is more popular
