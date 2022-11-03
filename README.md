@@ -7,15 +7,15 @@ You will be provided with 2 YouTube videos in front of you, and just by looking 
 ### <b >PS : Due to API Issues, it will take around 2-3 seconds for every round to load, so don't go spam clicking </b>
 
 ## Problems
-- This program is being run on the Invidious api, which is relatively very slow. An alternative would be to just use the YouTube Data API which is much faster, but due to quota limit issues, the game can only be played 5000 times in a day (5000 rounds).
 - The code sometimes randomly breaks due to an undefined youtube ID or connection timeout
-- Not compatible on Phone
+- Not completely compatible on phone
+- The API fetch speed seemed to have improved somehow, but will stil wait some more time before shifting to YouTube API
 
 ## Updates for future
 - [ ] Create another similar game, but this time to guess which youtuber is more popular
-- [ ] Make UI Better
-- [ ] Add a 10 second timer for every round
-- [ ] Once player crosses score of 50, the time to complete each round will decrease
+- [x] Make UI Better
+- [x] Add a 10 second timer for every round
+- [x] Once player crosses score of 50, the time to complete each round will decrease
 - [ ] Make loading speeds faster
 
 ![image](https://user-images.githubusercontent.com/67550066/193442228-361445a2-b588-4759-8a38-822ecb3cdbbb.png)
