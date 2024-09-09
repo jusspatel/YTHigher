@@ -49,8 +49,8 @@ function nextRound(){
 
 async function getData(){
     today = new Date()
-    let URL1 = `https://inv.in.projectsegfau.lt/api/v1/videos/${randomItems[0]}?fields=title,viewCount,published,videoThumbnails`
-    let URL2 = `https://inv.in.projectsegfau.lt/api/v1/videos/${randomItems[1]}?fields=title,viewCount,published,videoThumbnails`
+    let URL1 = `https://inv.nadeko.net/api/v1/videos/${randomItems[0]}?fields=title,viewCount,published,videoThumbnails`
+    let URL2 = `https://inv.nadeko.net/api/v1/videos/${randomItems[1]}?fields=title,viewCount,published,videoThumbnails`
     let infores1 = await fetch(URL1);
     infores11 = await infores1.json()
     let titles1 = infores11.title;
